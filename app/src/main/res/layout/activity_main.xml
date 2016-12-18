@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.palletechnologylearningproject.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line1"
+        android:orientation="vertical"
+        android:background="@drawable/shape">
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Csharp for freshers"
+           android:id="@+id/textview1"
+        android:textSize="30sp"
+           android:textColor="#000"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Duration : 37 hrs\nAssignments : 14 hrs\nTests : 22 hrs"
+            android:id="@+id/textview2"
+        android:textSize="25sp"
+            android:textColor="#000"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line2"
+        android:orientation="vertical"
+        android:background="@drawable/shape">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Csharp for Professionals"
+            android:id="@+id/textview3"
+            android:textSize="30sp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Duration : 48 hrs\nAssignments : 18 hrs\nTests : 29 hrs"
+            android:textSize="25sp"
+            android:id="@+id/textview4"
+            android:textColor="#000"
+            />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line3"
+        android:orientation="vertical"
+        android:background="@drawable/shape">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textview5"
+            android:text="SQL Server (t-sql)"
+            android:textColor="#000"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textview6"
+            android:text="Duration : 13 hrs\nAssignments : 5 hrs\nTests : 12 hrs"
+            android:textColor="#000"
+            android:textSize="25sp"
+            />
+        </LinearLayout>
+            </LinearLayout>
